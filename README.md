@@ -124,6 +124,7 @@ Some of the codes are handled explicitely:
 ------------------------
 ## **Changelog**
 
+V3.60 - Possibility to secure Nightscout with a readable token; alarm clock icon to show active alarms (all credits for these extensions to Trenar!)
 V3.56 - Fix for display error with double trend arrows (Thanks to Trenar!) </br>
 V3.55 - New function and setting: Low power mode (recommended for devices with amoled display) </br>
 V3.52 - Support for new devices </br>
@@ -137,7 +138,7 @@ V3.45 - Show actual heartrate if available, possibility to choose another color 
 V3.40 - Support for new devices, small fixes </br>
 V3.35 - Support for Enduro series </br>
 V3.30 - Fix for Omnipod (AAPS only): Show TBR as an absolute value. </br>
-V3.26 - Code clean upp </br>
+V3.26 - Code clean up</br>
 V3.25 - New setting: Disable data rotation and pin heartrate or steps </br>
 V3.20 - Layout changes: Thanks for the critical feedback to V3.30 ... </br>
 V3.14 - Fix 12 hour clock (0:00 to 12:00) </br>
