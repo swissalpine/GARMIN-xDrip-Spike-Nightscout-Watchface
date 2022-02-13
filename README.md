@@ -103,7 +103,8 @@ https://forums.garmin.com/developer/connect-iq/i/bug-reports/fenix-6-with-backgr
 
 *Q:* I get an "Error: -400".
 <br/>
-*A:* There is a communication error between the companion app (xDrip+, INVALID_HTTP_BODY_IN_NETWORK_RESPONSE Response body data is invalid for the request type. https://developer.garmin.com/connect-iq/api-docs/Toybox/Communications.html 
+*A:* There is a communication error between the companion app (xDrip+, Diabox, Nightscout or Spike) and the Garmin Connect Mobile app:
+INVALID_HTTP_BODY_IN_NETWORK_RESPONSE - Response body data is invalid for the request type.
 
 ## **Documented Error Codes**
 See the error code table from the [Garin SDK Documentation](https://developer.garmin.com/connect-iq/api-docs/Toybox/Communications.html).
