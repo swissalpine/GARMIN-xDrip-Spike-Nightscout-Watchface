@@ -167,8 +167,6 @@ V2.00 - Support for Spike app (iOS) </br>
 V1.00 - Initial release
 
 ## **About**
-This Watchface uses the
-<a target="_blank" href="https://icons8.com/icon/97965/bluetooth">Bluetooth</a>,
-<a target="_blank" href="https://icons8.com/icon/86196/alarm-clock">Alarm Clock</a>
-icons by <a target="_blank" href="https://icons8.com">Icons8</a>
+Thanks to Trenar (https://github.com/Trenar) for this Readme, the new alarm count function and some bugfixes
+Thanks to Vaughanabe13 (https://github.com/Vaughanabe13), who already showed me years ago how to restore a watchface with the last data
 
