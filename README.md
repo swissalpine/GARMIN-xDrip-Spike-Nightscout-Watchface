@@ -167,6 +167,6 @@ V2.00 - Support for Spike app (iOS) </br>
 V1.00 - Initial release
 
 ## **About**
-Thanks to Trenar (https://github.com/Trenar) for this Readme, the new alarm count function and some bugfixes
+Thanks to Trenar (https://github.com/Trenar) for this Readme, the new alarm count function and some bugfixes<br />
 Thanks to Vaughanabe13 (https://github.com/Vaughanabe13), who already showed me years ago how to restore a watchface with the last data
 
