@@ -170,3 +170,8 @@ V1.00 - Initial release
 Thanks to Trenar (https://github.com/Trenar) for this Readme, the new alarm count function and some bugfixes<br />
 Thanks to Vaughanabe13 (https://github.com/Vaughanabe13), who already showed me years ago how to restore a watchface with the last data
 
+This Watchface uses the
+<a target="_blank" href="https://icons8.com/icon/84881/heart">Heart</a>,
+<a target="_blank" href="https://icons8.com/icon/5871/stairs-up">Stairs Up</a> (modified),
+<a target="_blank" href="https://icons8.com/icon/22516/shoe-print">Shoe Print</a> (modified)
+icons by <a target="_blank" href="https://icons8.com">Icons8</a>
