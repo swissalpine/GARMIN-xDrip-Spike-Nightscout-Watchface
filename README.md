@@ -125,46 +125,46 @@ Some of the codes are handled explicitely:
 ------------------------
 ## **Changelog**
 
-V3.70 - Swap Icons and Text for steps / stairs Up / heartrate, exchange some icons (@Trenar) and introduce icons for AAPS status (@swissalpine)</br>
-V3.60 - Possibility to secure Nightscout with a readable token; alarm clock icon to show active alarms - Readme (all credits for these extensions to Trenar!))</br>
-V3.56 - Fix for display error with double trend arrows (Thanks to Trenar!) </br>
-V3.55 - New function and setting: Low power mode (recommended for devices with amoled display) </br>
-V3.52 - Support for new devices </br>
-V3.52 - Fix unhandled exception </br>
-V3.51 - Try to fix crashes caused by unupdated settings file </br>
-V3.50 - New Setting: Show notification count </br>
-V3.48 - New Setting: Colorize progress bar </br>
-V3.47 - Option to colorize BG value instead of the lines </br>
-V3.46 - Small fixes </br>
-V3.45 - Show actual heartrate if available, possibility to choose another color for inrange bg </br>
-V3.40 - Support for new devices, small fixes </br>
-V3.35 - Support for Enduro series </br>
-V3.30 - Fix for Omnipod (AAPS only): Show TBR as an absolute value. </br>
-V3.26 - Code clean up</br>
-V3.25 - New setting: Disable data rotation and pin heartrate or steps </br>
-V3.20 - Layout changes: Thanks for the critical feedback to V3.30 ... </br>
-V3.14 - Fix 12 hour clock (0:00 to 12:00) </br>
-V3.13 - Support for Descent MK2 </br>
-V3.12 - Allow up to 120 sec delay </br>
-V3.11 - Fix AAPS output if loop is deactivated in languages other than english/followers </br>
-V3.10 - Bug fix: trend arrow doesn't change (mmol/l) </br>
-V3.05 - Make the graph background black again! </br>
-V3.01 - Fix broken Nightscout request </br>
-V3.00 - Layout redesign to allow support of many new devices </br>
-V2.23 - Fix division by zero if step goal is set to 0 </br>
-V2.22 - Compile with SDK 3.1.8 in the hope of solving issues on individual devices (f. e. fr735xt) </br>
-V2.21 - Added setting to change units (Set by app, mg/dl or mmol/l) </br>
-V2.20 - Possibility to also query a Nightscout URL via the Internet </br>
-V2.17 - Reduce calculations in the hope of saving energy; compiled with an older sdk (3.1.4 instead of 3.1.6) to reduce incompatibilities with non-up-to-date firmwares of some devices </br>
-V2.16 - Fix NPE when xDrip+ is misconfigured </br>
-V2.15 - Fix to maintain previous readings when switching screens </br>
-V2.12 - Fix eco mode cannot be switched off </br>
-V2.11 - Eco mode, fix loading previous values after screen change on some devices </br>
-V2.04 - Code clean up </br>
-V2.03 - Small bug fix </br>
-V2.02 - Small bug fix </br>
-V2.00 - Support for Spike app (iOS) </br>
-[...] </br>
+V3.70 - Swap Icons and Text for steps / stairs Up / heartrate, exchange some icons (@Trenar) and introduce icons for AAPS status (@swissalpine)<br />
+V3.60 - Possibility to secure Nightscout with a readable token; alarm clock icon to show active alarms - Readme (all credits for these extensions to Trenar!))<br />
+V3.56 - Fix for display error with double trend arrows (Thanks to Trenar!) <br />
+V3.55 - New function and setting: Low power mode (recommended for devices with amoled display) <br />
+V3.52 - Support for new devices <br />
+V3.52 - Fix unhandled exception <br />
+V3.51 - Try to fix crashes caused by unupdated settings file <br />
+V3.50 - New Setting: Show notification count <br />
+V3.48 - New Setting: Colorize progress bar <br />
+V3.47 - Option to colorize BG value instead of the lines <br />
+V3.46 - Small fixes <br />
+V3.45 - Show actual heartrate if available, possibility to choose another color for inrange bg <br />
+V3.40 - Support for new devices, small fixes <br />
+V3.35 - Support for Enduro series <br />
+V3.30 - Fix for Omnipod (AAPS only): Show TBR as an absolute value. <br />
+V3.26 - Code clean up<br />
+V3.25 - New setting: Disable data rotation and pin heartrate or steps <br />
+V3.20 - Layout changes: Thanks for the critical feedback to V3.30 ... <br />
+V3.14 - Fix 12 hour clock (0:00 to 12:00) <br />
+V3.13 - Support for Descent MK2 <br />
+V3.12 - Allow up to 120 sec delay <br />
+V3.11 - Fix AAPS output if loop is deactivated in languages other than english/followers <br />
+V3.10 - Bug fix: trend arrow doesn't change (mmol/l) <br />
+V3.05 - Make the graph background black again! <br />
+V3.01 - Fix broken Nightscout request <br />
+V3.00 - Layout redesign to allow support of many new devices <br />
+V2.23 - Fix division by zero if step goal is set to 0 <br />
+V2.22 - Compile with SDK 3.1.8 in the hope of solving issues on individual devices (f. e. fr735xt) <br />
+V2.21 - Added setting to change units (Set by app, mg/dl or mmol/l) <br />
+V2.20 - Possibility to also query a Nightscout URL via the Internet <br />
+V2.17 - Reduce calculations in the hope of saving energy; compiled with an older sdk (3.1.4 instead of 3.1.6) to reduce incompatibilities with non-up-to-date firmwares of some devices <br />
+V2.16 - Fix NPE when xDrip+ is misconfigured <br />
+V2.15 - Fix to maintain previous readings when switching screens <br />
+V2.12 - Fix eco mode cannot be switched off <br />
+V2.11 - Eco mode, fix loading previous values after screen change on some devices <br />
+V2.04 - Code clean up <br />
+V2.03 - Small bug fix <br />
+V2.02 - Small bug fix <br />
+V2.00 - Support for Spike app (iOS) <br />
+[...] <br />
 V1.00 - Initial release
 
 ## **About**
