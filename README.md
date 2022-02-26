@@ -125,6 +125,7 @@ Some of the codes are handled explicitely:
 ------------------------
 ## **Changelog**
 
+V3.75 - Try to fix the problem of missing data if the watchface was not active for a while (code from Vaughanabe13)<br />
 V3.70 - Swap Icons and Text for steps / stairs Up / heartrate, exchange some icons (@Trenar) and introduce icons for AAPS status (@swissalpine)<br />
 V3.60 - Possibility to secure Nightscout with a readable token; alarm clock icon to show active alarms - Readme (all credits for these extensions to Trenar!))<br />
 V3.56 - Fix for display error with double trend arrows (Thanks to Trenar!) <br />
