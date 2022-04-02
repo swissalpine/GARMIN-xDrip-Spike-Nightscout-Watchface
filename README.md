@@ -95,7 +95,7 @@ If you like to see your loop status enable “xDrip+ Statusline (Watch)” in An
 <br/>
 *A:* Unfortunately, the firmware of the Fenix 6 and Enduro series has a bug that prevents updating the blood glucose data. This is not a problem with this watchface, there is nothing I can do about it:
 https://forums.garmin.com/developer/connect-iq/i/bug-reports/fenix-6-with-background-app-watchface-doesn-t-update
-<br/>A fixing firmware update is promised for February 2022.
+<br/>**Starting from the public beta 20.82, this issue seems fixed!** The new firmware can be dowloaded [here](https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/fenix-6-series/290079/fenix-6-series---20-82-public-beta). Please check, if there is even newer software meanwhile.
 
 *Q:* The watchfaces has a delay with respect to what's shown in xDrip+. What can I do?
 <br/>
