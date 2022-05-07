@@ -4,7 +4,8 @@ xDrip-Spike-Spike-Nightscout-Watchface gets your CGM bloodglucose readings direc
 
 This watchface displays the time and date, your last blood glucose reading including a graph, the trend and age of the last reading, your daily steps including a step related progress bar, your actual heartrate (if enabled in the settings of your device), a notification count and alarm count..
 
-Additionally if you have closed the loop with AndroidAPS it shows your loop status.
+Additionally if you have closed the loop with AndroidAPS it shows your loop status (IOB, TBR and COB).
+Spike user can see IOB and COB, but unfortunately no basal is submitted. 
 
 There are four phone synchronization possibilities: 
 1. xDrip+ (Android only, no internet connection required)
