@@ -126,6 +126,7 @@ Some of the codes are handled explicitely:
 ------------------------
 ## **Changelog**
 
+V3.90 - Support for new devices (Forerunner 955 series, Edge 1040 series)
 V3.81 - Format Spikes IOB without decimal digits
 V3.80 - Spike App: Show IOB and COB (TBR isn't supported afaik)
 V3.75 - Try to fix the problem of missing data if the watchface was not active for a while (code from Vaughanabe13)<br />
