@@ -92,15 +92,28 @@ If you like to see your loop status enable “xDrip+ Statusline (Watch)” in An
 <br/>
 *A:* Check the settings via the Garmin Connect Mobile App and wait at least 5 minutes. The Garmin SDK only allows data polling every 5 minutes, faster update rates are not possible.
 
+*Q:* How do I get xDrip+ alarms and how can I snooze them?
+<br />
+*A:* Unfortunately Watchfaces cannot issue alarms automatically (sound, vibration, etc.). But it is possible to display and acknowledge/snooze the xDrip+ alarms on the watches. To do this, the xDrip+ app must be allowed to send messages in the Garmin Connect Mobile app: <br />
+Settings > Notifications > App Notifications <br />
+- Notification Access: enabled <br />
+- xDrip+: enabled
+
+*Q:* The watchfaces has a delay with respect to what's shown in xDrip+. What can I do?
+<br/>
+*A:* If you think the synchronisation between the app and xDrip+ isn't perfect adjust the delay in the settings.
+
+*Q:* After some time, the blood glucose values are no longer updated ...
+<br />
+*A:* Often, energy-saving measures of the cell phone firmware lead to the fact that apps necessary for the query of blood glucose values are closed in the background. In particular, the Garmin Connect Mobile app and both Bluetooth apps (system apps) should not be restricted.
+The website https://dontkillmyapp.com/ explains what to do for various cell phone types.
+
 *Q:* The glucose data is not updated automatically on my **Fenix 6 & Enduro**
 <br/>
 *A:* Unfortunately, the firmware of the Fenix 6 and Enduro series has a bug that prevents updating the blood glucose data. This is not a problem with this watchface, there is nothing I can do about it:
 https://forums.garmin.com/developer/connect-iq/i/bug-reports/fenix-6-with-background-app-watchface-doesn-t-update
 <br/>**Starting from the public beta 20.82, this issue seems fixed!** The new firmware can be dowloaded [here](https://forums.garmin.com/outdoor-recreation/outdoor-recreation/f/fenix-6-series/290079/fenix-6-series---20-82-public-beta). Please check, if there is even newer software meanwhile.
 
-*Q:* The watchfaces has a delay with respect to what's shown in xDrip+. What can I do?
-<br/>
-*A:* If you think the synchronisation between the app and xDrip+ isn't perfect adjust the delay in the settings.
 
 *Q:* I get an "Error: -400".
 <br/>
