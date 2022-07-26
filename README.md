@@ -102,9 +102,12 @@ Another possibility is that a watch setting is working against it. Go to:<br / >
 Garmin Connect Mobile App > Garmin Devices > Your device > Sounds & Alerts > Smart Notifications.<br />
 Check if  the notifications under "General Use" and "During an Activity" are enabled (Show: all, Privacy: off, Alert: not "none").
 
-*Q:* The watchfaces has a delay with respect to what's shown in xDrip+. What can I do?
+*Q:* The watchfaces has a delay with respect to what's shown in xDrip+ etc.. What can I do?
 <br/>
-*A:* If you think the synchronisation between the app and xDrip+ isn't perfect adjust the delay in the settings.
+*A:* If you think the synchronisation between the app and xDrip+ isn't perfect adjust the delay in the settings.<br />
+If you still get values only every 10 minutes despite adjusting the delay, then you can also disable the algorithm that tries to approach the time of the measurement. Then the watch will stubbornly ask for a new value every 5 minutes:<br />
+Garmin Connect Mobile App > Your Device > Appearance > Watchfaces > xDrip+/Spike/Nightscout Watch > Settings:<br />
+Size of the additional delay of the query: "Query strict every 5 min. ..." (Scroll up!)
 
 *Q:* After some time, the blood glucose values are no longer updated ...
 <br />
@@ -142,6 +145,7 @@ Some of the codes are handled explicitely:
 ------------------------
 ## **Changelog**
 
+V3.91 - New setting: Disable the approximation of the time of measurement (not recommended, but helpful if the algo can't adjust the time of the request)
 V3.90 - Support for new devices (Forerunner 955 series, Edge 1040 series)
 V3.81 - Format Spikes IOB without decimal digits
 V3.80 - Spike App: Show IOB and COB (TBR isn't supported afaik)
