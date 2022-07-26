@@ -145,7 +145,7 @@ Some of the codes are handled explicitely:
 ------------------------
 ## **Changelog**
 
-V3.91 - New setting: Disable the approximation of the time of measurement (not recommended, but helpful if the algo can't adjust the time of the request)
+V3.91 - New setting: Disable the approximation of the time of measurement (not recommended, but helpful if the algo can't adjust the time of the request)<br />
 V3.90 - Support for new devices (Forerunner 955 series, Edge 1040 series)
 V3.81 - Format Spikes IOB without decimal digits
 V3.80 - Spike App: Show IOB and COB (TBR isn't supported afaik)
