@@ -95,11 +95,13 @@ If you like to see your loop status enable “xDrip+ Statusline (Watch)” in An
 *Q:* How do I get xDrip+ alarms and how can I snooze them?
 <br />
 *A:* Unfortunately Watchfaces cannot issue alarms automatically (sound, vibration, etc.). But it is possible to display and acknowledge/snooze the xDrip+ alarms on the watches. To do this, the xDrip+ app must be allowed to send messages in the Garmin Connect Mobile app: <br />
-Settings > Notifications > App Notifications <br />
+Settings > Notifications > App Notifications
+
 - Notification Access: enabled <br />
-- xDrip+: enabled<br />
-Another possibility is that a watch setting is working against it. Go to:<br / >
-Garmin Connect Mobile App > Garmin Devices > Your device > Sounds & Alerts > Smart Notifications.<br />
+- xDrip+: enabled
+
+Another possibility is that a watch setting is working against it. Go to: <br />
+Garmin Connect Mobile App > Garmin Devices > Your device > Sounds & Alerts > Smart Notifications. <br />
 Check if  the notifications under "General Use" and "During an Activity" are enabled (Show: all, Privacy: off, Alert: not "none").
 
 *Q:* The watchfaces has a delay with respect to what's shown in xDrip+ etc.. What can I do?
