@@ -156,9 +156,9 @@ V3.96b/c/d/e - Support for new devices (f.e. vivoactive hr, fr 965) <br />
 V3.96 - Support for Forerunner 55 <br />
 V3.95 - Support for Venu 2 sq, bigger icons for high resolution displays <br />
 V3.91 - New setting: Disable the approximation of the time of measurement (not recommended, but helpful if the algo can't adjust the time of the request) <br />
-V3.90 - Support for new devices (Forerunner 955 series, Edge 1040 series)
-V3.81 - Format Spikes IOB without decimal digits
-V3.80 - Spike App: Show IOB and COB (TBR isn't supported afaik)
+V3.90 - Support for new devices (Forerunner 955 series, Edge 1040 series) <br />
+V3.81 - Format Spikes IOB without decimal digits <br />
+V3.80 - Spike App: Show IOB and COB (TBR isn't supported afaik) <br />
 V3.75 - Try to fix the problem of missing data if the watchface was not active for a while (code from Vaughanabe13)<br />
 V3.70 - Swap Icons and Text for steps / stairs Up / heartrate, exchange some icons (@Trenar) and introduce icons for AAPS status (@swissalpine)<br />
 V3.60 - Possibility to secure Nightscout with a readable token; alarm clock icon to show active alarms - Readme (all credits for these extensions to Trenar!))<br />
