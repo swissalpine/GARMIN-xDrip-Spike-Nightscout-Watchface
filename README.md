@@ -145,17 +145,17 @@ Some of the codes are handled explicitely:
 | `Error: -404`<br/>`URL Settings?` | `PAGE_NOT_FOUND`: Check, if xDrip/Spike/Diabox are configured correctly, or if the nightscout URL and token are provided. | 
 
 ------------------------
-## **Changelog**
-
-V4.03 - Avoid redundant caching
-V4.02 - Fix: reactivation of the approximation to the time of the last measurement
-V4.01 - Try to fix a rare bug (only one bg reading was sent)
-V4.00 - Measurements are accumulated with each query (useful if minute-by-minute measurements are transmitted)
-V3.98.1 - Lighter gray in lower power mode to increase readability
-V3.96b/c/d/e - Support for new devices (f.e. vivoactive hr, fr 965)
-V3.96 - Support for Forerunner 55
-V3.95 - Support for Venu 2 sq, bigger icons for high resolution displays
-V3.91 - New setting: Disable the approximation of the time of measurement (not recommended, but helpful if the algo can't adjust the time of the request)
+## **Changelog** <br />
+ <br />
+V4.03 - Avoid redundant caching <br />
+V4.02 - Fix: reactivation of the approximation to the time of the last measurement <br />
+V4.01 - Try to fix a rare bug (only one bg reading was sent) <br />
+V4.00 - Measurements are accumulated with each query (useful if minute-by-minute measurements are transmitted) <br />
+V3.98.1 - Lighter gray in lower power mode to increase readability <br />
+V3.96b/c/d/e - Support for new devices (f.e. vivoactive hr, fr 965) <br />
+V3.96 - Support for Forerunner 55 <br />
+V3.95 - Support for Venu 2 sq, bigger icons for high resolution displays <br />
+V3.91 - New setting: Disable the approximation of the time of measurement (not recommended, but helpful if the algo can't adjust the time of the request) <br />
 V3.90 - Support for new devices (Forerunner 955 series, Edge 1040 series)
 V3.81 - Format Spikes IOB without decimal digits
 V3.80 - Spike App: Show IOB and COB (TBR isn't supported afaik)
