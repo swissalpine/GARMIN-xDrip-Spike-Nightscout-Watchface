@@ -129,7 +129,7 @@ https://forums.garmin.com/developer/connect-iq/i/bug-reports/fenix-6-with-backgr
 INVALID_HTTP_BODY_IN_NETWORK_RESPONSE - Response body data is invalid for the request type.
 
 ## **Documented Error Codes**
-See the error code table from the [Garin SDK Documentation](https://developer.garmin.com/connect-iq/api-docs/Toybox/Communications.html).
+See the error code table from the [Garmin SDK Documentation](https://developer.garmin.com/connect-iq/api-docs/Toybox/Communications.html).
 
 Some of the codes are handled explicitely:
 | Error Code | Explanation | Possible Solution |
