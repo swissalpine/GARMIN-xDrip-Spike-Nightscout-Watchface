@@ -39,7 +39,7 @@ This watchface can receive data from either xDrip+, Diabox or Spike (which are a
 You need to install the xDrip+ (Android only) or Spike app (iOS only):
 
 - Android: xDrip+ https://github.com/NightscoutFoundation/xDrip/releases or https://jamorham.github.io/#xdrip-plus
-- Android: AAPS https://github.com/nightscout/AndroidAPS/tree/dev
+- Android: AAPS dev https://github.com/nightscout/AndroidAPS/tree/dev
 - Android: Diabox https://www.bubblan.org/
 - iOS: https://spike-app.com
 - Nightscout: https://github.com/nightscout/cgm-remote-monitor/releases or http://www.nightscout.info/
