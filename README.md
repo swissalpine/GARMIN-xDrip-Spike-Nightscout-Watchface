@@ -9,14 +9,16 @@ Spike user can see IOB and COB, but unfortunately no basal is submitted.
 
 There are four phone synchronization possibilities: 
 1. xDrip+ (Android only, no internet connection required)
-2. AAPS (Android only, latest dev build after 12/05/2023)
+2. AAPS (Android only, version 3.2.0.4 or newer, no internet connection required)
 3. Spike (iOS only, no internet connection required) 
-4. Diabox (Android, iOS, no internet connection required)
-5. Nightscout (cross-platform, internet connection required). 
+4. Nightscout (cross-platform, internet connection required). 
 
 ------------------------
 ## **PLEASE READ THIS ADVISORY FIRST**
 Never make a medical decision based on a reading that you see on this app e.g. your watch. Always perform a fingerstick blood glucose check first.
+
+## **Invite me for a coffee** :-)
+<a target="_blank" href="https://paypal.me/AndMay">paypal.me/AndMay</a>
 
 ## **Contributing**
 Please report bugs, errors and feature requests. Before doing so, please read the [Troubleshooting Q&A](#troubleshooting-qa).
@@ -27,20 +29,19 @@ You can change the settings in the Garmin Connect Mobile App or Garmin Express o
 
 1. Choose your companion app: xDrip+, AAPS, Spike or Nightscout (optional secured with an access-token) 
 1. Adjust the lower and upper target of your bloodglucose readings (standard: 70-180 mg/dl / 3,9 mmol/l - 180 mg/dl / 10,0 mmol/l).
-1. Change the delay of the request (standard: 15-30 seconds after the last reading) by adding or substracting some seconds if the timing does not work.
+1. Change the delay of the request (standard: 15-30 seconds after the last reading) by adding or substracting some seconds if the timing does not work. If adjusting the delay of the query does not help, you can also completely deactivate the automatic approach to the time of the measurement.
 1. Low Power Mode: Displays a dark, reduced watchface with clock and CGM value when the watch is in low power mode (recommended for amoled displays).
-1. Additional settings: Colorize bars and bg value, show notification count if any
+1. Additional settings: Colorize bars and bg value, show notification count if any.
 
 ------------------------
 ## **Setup**
 ### **Install Companion App**
-This watchface can receive data from either xDrip+, Diabox or Spike (which are all apps on your phone) or from a Nightscout instance.
+This watchface can receive data from either xDrip+, AAPS or Spike (which are all apps on your phone) or from a Nightscout instance.
 
-You need to install the xDrip+ (Android only) or Spike app (iOS only):
+You need to install the xDrip+, AAPS (Android only) or Spike app (iOS only):
 
 - Android: xDrip+ https://github.com/NightscoutFoundation/xDrip/releases or https://jamorham.github.io/#xdrip-plus
-- Android: AAPS dev https://github.com/nightscout/AndroidAPS/tree/dev
-- Android: Diabox https://www.bubblan.org/
+- Android: AAPS https://github.com/nightscout/AndroidAPS/
 - iOS: https://spike-app.com
 - Nightscout: https://github.com/nightscout/cgm-remote-monitor/releases or http://www.nightscout.info/
 
@@ -68,13 +69,6 @@ See [Text xDrip+](#test-xdrip), but change the URL to `http://127.0.0.1:28891/sg
 #### *Test Spike*
 See [Text xDrip+](#test-xdrip), but change the URL to `http://127.0.0.1:1979/sgv.json?count=2`.
 
-### **Diabox**
-1. In Diabox, enable "Share data with smartwatches" (Diabox: Settings -> Integrations) 
-1. In the watchface settings select "xDrip+ (Android only)".
-
-#### *Test Diabox*
-See [Test xDrip+](#test-xdrip).
-
 ### **Nightscout**
 1. In the watchface settings select "Nightscout URL (mobile data connection required)"
 1. Enter your nightscout URL, but without `https` or `/api/v1/...`, e.g. `yourapp.heroku.com`.
@@ -92,7 +86,7 @@ See [Test xDrip+](#test-xdrip), but change the URL to
 - or `https://<YOURAPP.HEROKU.COM>/api/v1/entries/sgv.json?count=12&token=<ACCESS-TOKEN>` in case, you need an access token.
 
 ### **AndroidAPS**
-If you like to see your loop status enable “xDrip+ Statusline (Watch)” in AndroidAPS.
+If you like to see your loop status enable "AAPS" as data source; the previous option via xDrip+ and the AAPS status line is deprecated and will be removed soon.
 
 ------------------------
 ## **Troubleshooting Q/A**
@@ -133,7 +127,7 @@ https://forums.garmin.com/developer/connect-iq/i/bug-reports/fenix-6-with-backgr
 
 *Q:* I get an "Error: -400".
 <br/>
-*A:* There is a communication error between the companion app (xDrip+, Diabox, Nightscout or Spike) and the Garmin Connect Mobile app:
+*A:* There is a communication error between the companion app (xDrip+, AAPS, Nightscout or Spike) and the Garmin Connect Mobile app:
 INVALID_HTTP_BODY_IN_NETWORK_RESPONSE - Response body data is invalid for the request type.
 
 ## **Documented Error Codes**
@@ -150,11 +144,25 @@ Some of the codes are handled explicitely:
 | `Error: -400` | `INVALID_HTTP_BODY_IN_NETWORK_RESPONSE`: Response body data is invalid for the request type. | Check the settings of the watchface and your companion app. See [Setup](#setup) |
 | `Error: -401` | `UNAUTHORIZED`:  Unauthorized web access. | Most likely connected to Nightscout integration. Check the URL, the access token if the token has `readable` role. |
 | `Error: -403`<br/>`Device Memory!` | `NETWORK_RESPONSE_OUT_OF_MEMORY`: Ran out of memory processing network response. | We messed something up. Please contact us! | 
-| `Error: -404`<br/>`URL Settings?` | `PAGE_NOT_FOUND`: Check, if xDrip/Spike/Diabox are configured correctly, or if the nightscout URL and token are provided. | 
+| `Error: -404`<br/>`URL Settings?` | `PAGE_NOT_FOUND`: Check, if xDrip/AAPS/Spike are configured correctly, or if the nightscout URL and token are provided. | 
 
 ------------------------
 ## **Changelog** <br />
  <br />
+v4.27 - Code changes<br />
+v4.26 - Support for new devices (Instinct 3 Amoled, due to the display covers, other Instinct watches are not supported)<br />
+V4.25 - Support for new devices (fenix 8)<br />
+V4.24 - Support for fr165<br />
+V4.23 - Prepare AAPS update<br />
+V4.22 - Fix Nightscout with token request<br />
+V4.21b - Fix iob and cob not shown (Spike)<br />
+V4.20 - Support for direct requests to AAPS (works with dev build after 12/01/2023)<br />
+V4.13 - Support for Fenix 7 pro solar<br />
+V4.12 - Design optimization for very large amoled displays, prevent out of memory issues on older devices<br />
+V4.11 - Support for new devices (vivoactive 5, venu 3/3s)<br />
+V4.10 - Optimizations of the delay function<br />
+V4.05 - Support for new devices (Epix Pro Gen2, Fenix 7 Pro etc.)<br />
+V4.04 - Fix bug if timestamp is formatted as float instead of long<br />
 V4.03 - Avoid redundant caching <br />
 V4.02 - Fix: reactivation of the approximation to the time of the last measurement <br />
 V4.01 - Try to fix a rare bug (only one bg reading was sent) <br />
