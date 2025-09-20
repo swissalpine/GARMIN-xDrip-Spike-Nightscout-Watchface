@@ -50,14 +50,15 @@ You need to install the xDrip+, AAPS (Android only) or Spike app (iOS only):
 See the following section on how to setup the individual applications.
 ### **xDrip+**
 1. In xDrip+, enable the xDrip Web-Server (Settings -> Inter-App Settings -> enable "xDrip Web-Server", but *not* the "Open Web Server")
-1. in the watchface settings select "xDrip+ (Android only)"
+2. in the watchface settings select "xDrip+ (Android only)"
 
 #### *Test xDrip+*
 If you'd like to see, if xDrip+ is configured correctly, query the URL `http://127.0.0.1:17580/sgv.json?count=12` in your phone's webbrowser. If there is some text output with time stamps and glucose values, xDrip is set up correctly.
 
 ### **AAPS**
-1. Enable the Garmin Plugin (Config Builder > Garmin Plugin)
-1. In the watchface settings select "AAPS".
+1. Enable the Garmin Plugin (AAPS: Config Builder > Garmin Plugin)
+2. In the watchface settings select "AAPS".
+3. Do not define a request key (leave the field blank).
 
 #### *Test AAPS*
 See [Text xDrip+](#test-xdrip), but change the URL to `http://127.0.0.1:28891/sgv.json?count=12&brief_mode=true`.
